@@ -1,0 +1,86 @@
+Tue May 10 22:10:16 2022: build-wrapper, version 6.33 (linux-x86)
+Tue May 10 22:10:16 2022: System name: Linux Nodename: marcelo-HP-Laptop-14-bs0xx Release: 5.13.0-40-generic Version: #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022 Machine: x86_64
+Tue May 10 22:10:16 2022: socket path: /tmp/build-wrapper-socket.2dC6gP
+Tue May 10 22:10:16 2022: dynamic library found: /home/marcelo/build-wrapper-linux-x86/libinterceptor-i686.so
+Tue May 10 22:10:16 2022: dynamic library found: /home/marcelo/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Tue May 10 22:10:16 2022: dynamic library found: /home/marcelo/build-wrapper-linux-x86/libinterceptor-haswell.so
+Tue May 10 22:10:16 2022: cwd: </home/marcelo/Documentos/UTEC2022-1/Ing_Software/Tareas/observer>
+Tue May 10 22:10:16 2022: command executed as: <build-wrapper-linux-x86-64 --out-dir build_wrapper_output_directory>
+Tue May 10 22:10:16 2022: out-dir absolute path: </home/marcelo/Documentos/UTEC2022-1/Ing_Software/Tareas/observer/build_wrapper_output_directory>
+Tue May 10 22:10:16 2022: command line received: <make clean all>
+Tue May 10 22:10:16 2022: env 0: <SHELL=/bin/bash>
+Tue May 10 22:10:16 2022: env 1: <SESSION_MANAGER=local/marcelo-HP-Laptop-14-bs0xx:@/tmp/.ICE-unix/1616,unix/marcelo-HP-Laptop-14-bs0xx:/tmp/.ICE-unix/1616>
+Tue May 10 22:10:16 2022: env 2: <QT_ACCESSIBILITY=1>
+Tue May 10 22:10:16 2022: env 3: <COLORTERM=truecolor>
+Tue May 10 22:10:16 2022: env 4: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue May 10 22:10:16 2022: env 5: <XDG_MENU_PREFIX=gnome->
+Tue May 10 22:10:16 2022: env 6: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue May 10 22:10:16 2022: env 7: <LANGUAGE=es_PE:es>
+Tue May 10 22:10:16 2022: env 8: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue May 10 22:10:16 2022: env 9: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue May 10 22:10:16 2022: env 10: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Tue May 10 22:10:16 2022: env 11: <XMODIFIERS=@im=ibus>
+Tue May 10 22:10:16 2022: env 12: <DESKTOP_SESSION=ubuntu>
+Tue May 10 22:10:16 2022: env 13: <SSH_AGENT_PID=1570>
+Tue May 10 22:10:16 2022: env 14: <GTK_MODULES=gail:atk-bridge>
+Tue May 10 22:10:16 2022: env 15: <PWD=/home/marcelo/Documentos/UTEC2022-1/Ing_Software/Tareas/observer>
+Tue May 10 22:10:16 2022: env 16: <LOGNAME=marcelo>
+Tue May 10 22:10:16 2022: env 17: <XDG_SESSION_DESKTOP=ubuntu>
+Tue May 10 22:10:16 2022: env 18: <XDG_SESSION_TYPE=x11>
+Tue May 10 22:10:16 2022: env 19: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
+Tue May 10 22:10:16 2022: env 20: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
+Tue May 10 22:10:16 2022: env 21: <GJS_DEBUG_TOPICS=JS ERROR;JS LOG>
+Tue May 10 22:10:16 2022: env 22: <WINDOWPATH=2>
+Tue May 10 22:10:16 2022: env 23: <HOME=/home/marcelo>
+Tue May 10 22:10:16 2022: env 24: <USERNAME=marcelo>
+Tue May 10 22:10:16 2022: env 25: <IM_CONFIG_PHASE=1>
+Tue May 10 22:10:16 2022: env 26: <LANG=es_PE.UTF-8>
+Tue May 10 22:10:16 2022: env 27: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Tue May 10 22:10:16 2022: env 28: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue May 10 22:10:16 2022: env 29: <VTE_VERSION=6003>
+Tue May 10 22:10:16 2022: env 30: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/1a1543aa_8910_4f78_ab3e_bc47367cf52d>
+Tue May 10 22:10:16 2022: env 31: <INVOCATION_ID=1929c8d7599c428b845a64cbf8b2fab7>
+Tue May 10 22:10:16 2022: env 32: <MANAGERPID=1223>
+Tue May 10 22:10:16 2022: env 33: <GJS_DEBUG_OUTPUT=stderr>
+Tue May 10 22:10:16 2022: env 34: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Tue May 10 22:10:16 2022: env 35: <XDG_SESSION_CLASS=user>
+Tue May 10 22:10:16 2022: env 36: <TERM=xterm-256color>
+Tue May 10 22:10:16 2022: env 37: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue May 10 22:10:16 2022: env 38: <LESSOPEN=| /usr/bin/lesspipe %s>
+Tue May 10 22:10:16 2022: env 39: <USER=marcelo>
+Tue May 10 22:10:16 2022: env 40: <GNOME_TERMINAL_SERVICE=:1.271>
+Tue May 10 22:10:16 2022: env 41: <DISPLAY=:0>
+Tue May 10 22:10:16 2022: env 42: <SHLVL=1>
+Tue May 10 22:10:16 2022: env 43: <QT_IM_MODULE=ibus>
+Tue May 10 22:10:16 2022: env 44: <XDG_RUNTIME_DIR=/run/user/1000>
+Tue May 10 22:10:16 2022: env 45: <SONAR_TOKEN=64287d8bc237a9fd3ac13c79f5e813d7aa309f68>
+Tue May 10 22:10:16 2022: env 46: <JOURNAL_STREAM=8:41502>
+Tue May 10 22:10:16 2022: env 47: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Tue May 10 22:10:16 2022: env 48: <PATH=/home/marcelo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/marcelo/Descargas/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:/home/marcelo/build-wrapper-linux-x86>
+Tue May 10 22:10:16 2022: env 49: <GDMSESSION=ubuntu>
+Tue May 10 22:10:16 2022: env 50: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus>
+Tue May 10 22:10:16 2022: env 51: <OLDPWD=/home/marcelo/Documentos/UTEC2022-1/Ing_Software/Tareas>
+Tue May 10 22:10:16 2022: env 52: <_=/home/marcelo/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue May 10 22:10:16 2022: executing: <make clean all>
+Tue May 10 22:10:16 2022: initializing json file
+Tue May 10 22:10:16 2022: process created with pid: 12403
+Tue May 10 22:10:16 2022: parent pid: 12400
+Tue May 10 22:10:16 2022: working directory: </home/marcelo/Documentos/UTEC2022-1/Ing_Software/Tareas/observer>
+Tue May 10 22:10:16 2022: executable: </home/marcelo/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue May 10 22:10:16 2022: argv[0]: <build-wrapper-linux-x86-64>
+Tue May 10 22:10:16 2022: argv[1]: <-c>
+Tue May 10 22:10:16 2022: argv[2]: <>
+Tue May 10 22:10:16 2022: argv[3]: <make>
+Tue May 10 22:10:16 2022: argv[4]: <clean>
+Tue May 10 22:10:16 2022: argv[5]: <all>
+Tue May 10 22:10:16 2022: skipping process with pid: 12403
+Tue May 10 22:10:16 2022: process created with pid: 12405
+Tue May 10 22:10:16 2022: parent pid: 12403
+Tue May 10 22:10:16 2022: working directory: </home/marcelo/Documentos/UTEC2022-1/Ing_Software/Tareas/observer>
+Tue May 10 22:10:16 2022: executable: </usr/bin/make>
+Tue May 10 22:10:16 2022: argv[0]: <make>
+Tue May 10 22:10:16 2022: argv[1]: <clean>
+Tue May 10 22:10:16 2022: argv[2]: <all>
+Tue May 10 22:10:16 2022: skipping process with pid: 12405
+Tue May 10 22:10:16 2022: finalizing json file
+Tue May 10 22:10:16 2022: returned with code: 2
