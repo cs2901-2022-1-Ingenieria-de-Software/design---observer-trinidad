@@ -67,11 +67,18 @@ class DisplayDevice{
 	double temperature;
 	double pressure;
 	double humidity;
+  string condition;
+  double ratioRegression=2.0;
 	public:
 	void displayAll(){
 	   cout<<"current temperature is: "<<temperature<<endl;
 	   cout<<"current pressure is: "<<pressure<<endl;
 	   cout<<"current humidity is: "<<humidity<<endl;
+                          
+     if(temperature<20.0){condition="Cold";}
+     else{condition="Hot";ratioRegression=0.75;}
+     cout<<"Statistics shows that the weather is: "<<condition<<endl;
+     cout<<"Statistics shows that the temperature the next day will be: "<<temperature*ratioRegression<<endl;
 	   
 	}
 	
@@ -156,6 +163,8 @@ int main() {
     PressureObserver p(w,d);
     HumidityObserver h(w,d);
     w.setParameters(10,20,30);
-
+    d->displayAll();
+    w.setParameters(21,20,30);
+    d->displayAll();
 
 }
