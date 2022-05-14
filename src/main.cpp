@@ -166,5 +166,5 @@ int main() {
     d->displayAll();
     w.setParameters(21,20,30);
     d->displayAll();
-
+    //finish
 }
