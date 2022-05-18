@@ -14,7 +14,7 @@ typedef long long ll;
 typedef vector<int> vi; 
 typedef vector<ll> vll; 
 typedef vector<pair<int,int>> vii;
-// clases
+
 class Observable;
 class Observer{
     public:
